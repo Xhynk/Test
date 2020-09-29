@@ -1,3 +1,4 @@
 <?php
-	echo '<h1>Hello world.</h1>';
+	$username = 'Alex';
+	printf( '<h1>Hello %s!</h1>', $username );
 ?>
